@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  background: linear-gradient(135deg, #eeaeca, #94bbe9);
+  margin: 0;
+  padding: 20px;
+}
+
+
+.input-field {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #d9e7f6;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #8ae5d0;
+  border-radius: 4px;
+  box-sizing: border-box; /* Prevents padding from affecting the width */
+}
+
+/* Style for checkboxes and radio buttons */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Button styles */
+button {
+  background-color: #1bcfb1;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #4cae8f; /* Darker green on hover */
+}
+
+/* Textarea specific styles */
+textarea {
+  resize: vertical; /* Allows vertical resizing */
+  height: 100px; /* Fixed height for textarea */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  input[type="text"],
+  textarea,
+  button {
+      font-size: 14px; /* Smaller font size on small screens */
+  }
+}
