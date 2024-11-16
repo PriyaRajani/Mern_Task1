@@ -29,16 +29,16 @@ textarea {
   padding: 8px;
   border: 1px solid #8ae5d0;
   border-radius: 4px;
-  box-sizing: border-box; /* Prevents padding from affecting the width */
+  box-sizing: border-box;
 }
 
-/* Style for checkboxes and radio buttons */
+
 input[type="checkbox"],
 input[type="radio"] {
   margin-right: 5px;
 }
 
-/* Button styles */
+
 button {
   background-color: #1bcfb1;
   color: white;
@@ -50,13 +50,13 @@ button {
 }
 
 button:hover {
-  background-color: #4cae8f; /* Darker green on hover */
+  background-color: #4cae8f; 
 }
 
-/* Textarea specific styles */
+
 textarea {
-  resize: vertical; /* Allows vertical resizing */
-  height: 100px; /* Fixed height for textarea */
+  resize: vertical; 
+  height: 100px; 
 }
 
 /* Responsive adjustments */
